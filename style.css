@@ -1,0 +1,256 @@
+/* BILLBOARD */
+/* billboard container */
+.billboard-container {
+  box-sizing:border-box;
+  margin:0;
+  padding: 0;
+}
+
+.billboard {
+  margin:auto;
+  width: 100%;
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  color: #212121;
+  font-family: 'Raleway', sans-serif;
+  overflow:hidden;
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+
+}
+
+/* billboard contents */
+.billboard-content {
+  max-width:75%;
+  margin:0 auto;
+}
+
+/* billboard heading */
+.billboard h1 {
+  font-weight: 900;
+  margin-bottom:5vh;
+  display: flex;
+  justify-content: center;
+} 
+
+/* billboard paragraph */
+.billboard p {
+  margin-bottom:2vh;
+}
+
+.billboard-picture {
+  background-image: url(pic4.jpg);
+}
+
+/* billboard button */
+.button-space {
+  width: 100%;
+}
+
+.button-body {
+  background-color: #3171f2;
+  color: white;
+  font-weight: 300;
+  border-radius: 5px;
+  margin-top: 3vh;
+  display: inline-block;
+  text-decoration:none;
+  padding:9px 14px;
+}
+
+.button-body:hover {
+  background-color: #0447cd;
+  transition: background-color 1.5s ease;
+}
+
+
+/* MEDIA QUERIES - Billboard */
+/* extra-small ie phone */
+@media (min-width:450px) {
+
+  .billboard h1 {
+    font-size: 2.8125em;
+  }
+
+	.billboard h2 {
+		font-size: 2.3125em;
+	}
+
+	.billboard h3 {
+    font-size: 1.9825em;
+  }
+
+  .billboard h4 {
+    font-size: 1.8125em;
+  }
+
+  .billboard h5 {
+    font-size: 1.67em;
+  }
+
+  .billboard h6 {
+    font-size: 1.51em;
+  }
+
+  .billboard p, .billboard li, .billboard a {
+    font-size: 1.5625em;
+  }
+
+  .button-body {
+    font-size: 0.8575em;
+  }
+
+}
+
+/* small ie tablet, chromebook */
+@media (min-width:668px) {
+
+  .billboard h1 {
+    font-size: 4.0625em;
+  }
+
+	.billboard h2 {
+    font-size: 3.5625em;
+  }
+
+  .billboard h3 {
+    font-size: 3.2325em;
+  }
+
+  .billboard h4 {
+    font-size: 3.0625em;
+  }
+
+  .billboard h5 {
+    font-size: 2.92em;
+  }
+
+  .billboard h6 {
+    font-size: 2.7575em;
+  }
+
+  .billboard p, .billboard li, .billboard a {
+    font-size: 1.875em;
+  }
+
+  .button-body {
+    font-size: 1.2575em;
+  }
+
+}
+
+
+/* medium ie 13 inch  */
+@media (min-width:901px) {
+
+  .billboard h1 {
+    font-size: 5em;
+  }
+
+  .billboard h2 {
+    font-size: 4.5em;
+  }
+
+  .billboard h3 {
+    font-size: 4.17em;
+  }
+
+  .billboard h4 {
+    font-size: 4em;
+  }
+
+  .billboard h5 {
+    font-size: 3.83em;
+  }
+
+  .billboard h6 {
+    font-size: 3.67em;
+  }
+
+  .billboard p, .billboard li, .billboard a {
+    font-size: 2.1875em;
+  }
+
+  .button-body {
+    font-size: 1.4525em;
+  }
+
+}
+
+/* large ie more than 13 inch, less than 27 inch */
+@media (min-width:1301px) {
+
+  .billboard h1 {
+    font-size: 5.3125em;
+  }
+
+  .billboard h2 {
+    font-size: 4.8125em;
+  }
+
+  .billboard h3 {
+    font-size: 4.488125em;
+  }
+
+  .billboard h4 {
+    font-size: 4.27875em;
+  }
+
+  .billboard h5 {
+    font-size: 4.13625em;
+  }
+
+  .billboard h6 {
+    font-size: 3.97625em;
+  }
+
+  .billboard p, .billboard li, .billboard a {
+    font-size: 2.5em;
+  }
+
+  .button-body {
+    font-size: 1.5625em;
+  }
+
+}
+
+/* extra-large ie 27 inch and above */
+@media (min-width:1601px) {
+
+  .billboard h1 {
+    font-size: 5.625em;
+  }
+
+  .billboard h2 {
+    font-size: 5.125em;
+  }
+
+  .billboard h3 {
+    font-size: 4.795em;
+  }
+
+  .billboard h4 {
+    font-size: 4.625em;
+  }
+
+  .billboard h5 {
+    font-size: 4.4825em;
+  }
+
+  .billboard h6 {
+    font-size: 4.3225em;
+  }
+
+  .billboard p, .billboard li, .billboard a {
+    font-size: 2.8125em;
+  }
+
+  .button-body {
+    font-size: 1.875em;
+  }
+
+}
